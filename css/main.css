@@ -2615,8 +2615,8 @@ textarea.w-select {
 
 .sports-img {
   position: relative;
-  width: 100%;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.6);
+  width: 64%;
+  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.185);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
@@ -2640,10 +2640,12 @@ textarea.w-select {
 
 .sports-img._1 {
   bottom: 50px;
+  left: 190px;
 }
 
 .sports-img._3 {
   bottom: 50px;
+  left: 186px;
 }
 
 .row {
