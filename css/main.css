@@ -2988,6 +2988,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .cherry-desc {
     margin-bottom: 30px;
+    text-align: justify;
   }
   .cherry-section {
     padding: 80px 8vw 50px;
