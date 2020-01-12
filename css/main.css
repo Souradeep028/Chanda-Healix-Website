@@ -2184,13 +2184,14 @@ textarea.w-select {
 }
 
 .chemical-card {
+  z-index: 1;
   position: absolute;
   left: 150px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 50vw;
   float: left;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.25); */
 }
 
 .chemical-content {
@@ -3028,7 +3029,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     bottom: 100px;
     display: block;
     width: 200px;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
