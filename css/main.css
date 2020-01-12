@@ -2800,6 +2800,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .section-subtitle {
     margin-bottom: 30px;
+    margin-top: -28px;
   }
   .cherry-bg-circle {
     margin-right: 0px;
@@ -3006,7 +3007,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .chemical-section {
     padding-top: 50px;
-    margin-left: -34px;
+    margin-bottom: -76px;
   }
   .chemical-card {
     position: static;
