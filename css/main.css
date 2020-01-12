@@ -3006,6 +3006,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .chemical-section {
     padding-top: 50px;
+    margin-left: -34px;
   }
   .chemical-card {
     position: static;
@@ -3075,7 +3076,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     height: 200px;
   }
   .origin-content {
-    padding-top: 85vw;
+    padding-top: 82vw;
   }
   .origin-title {
     font-size: 28px;

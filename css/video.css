@@ -32,11 +32,14 @@
       .gallery{
           margin-top: -260px;
       }
-      h1{
-          font-size: 4px;
+      .origin-title{
+          font-size: 20px;
+          line-height: normal;
+          margin-bottom: 60px;
+          margin-left: -34px;
       }
       .single-video{
-        margin: -2rem;
+        margin: -2.2rem;
         margin-bottom: 32px;
       }
   }
