@@ -2303,7 +2303,7 @@ textarea.w-select {
 
 .origin-section {
   position: relative;
-  min-height: 100vh;
+  min-height: 78vh;
   margin-top: 50px;
   background-color: #fff;
 }
@@ -2334,7 +2334,7 @@ textarea.w-select {
 }
 
 .origin-content {
-  padding: 39vw 12vw 100px;
+  padding: 39vw 12vw 24px;
   background-color: #fff2f6;
 }
 
