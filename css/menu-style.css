@@ -308,7 +308,7 @@
 	cursor: pointer;
 	position: absolute;
 	top: 20px;
-	right: 30px;
+	right: 14px;
 	z-index: 1100;
 	border-radius: 40%;
 	background-color: var(--button-bg);
