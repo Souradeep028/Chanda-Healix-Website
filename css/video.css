@@ -27,3 +27,16 @@
     width: 100%;
     height: 100%;
   }
+
+  @media (max-width: 479px){
+      .gallery{
+          margin-top: -260px;
+      }
+      h1{
+          font-size: 4px;
+      }
+      .single-video{
+        margin: -2rem;
+        margin-bottom: 32px;
+      }
+  }
