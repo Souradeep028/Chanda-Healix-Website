@@ -2623,9 +2623,9 @@ textarea.w-select {
 
 .sports-img:hover {
   z-index: 999;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .sports-img._2 {
@@ -2993,6 +2993,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   .cherry-section {
     padding: 80px 8vw 50px;
     text-align: center;
+    top: -140px;
   }
   .cherry-bg-circle {
     bottom: -30px;
@@ -3001,7 +3002,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .cherry-bg {
     position: relative;
-    left: -8vw;
+    left: -4vw;
     width: 92vw;
     height: 92vw;
   }
@@ -3010,7 +3011,8 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .chemical-section {
     padding-top: 50px;
-    margin-bottom: -76px;
+    margin-bottom: -240px;
+    top: -156px;
   }
   .chemical-card {
     position: static;
@@ -3034,7 +3036,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     bottom: 100px;
     display: block;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
@@ -3094,6 +3096,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   .sports-section {
     padding-top: 20px;
     padding-bottom: -50px;
+    margin-bottom: -200px;
   }
   .citation-img {
     height: 60vw;
@@ -3118,13 +3121,13 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .intro-bg {
     position: relative;
-    left: -8vw;
+    left: -4vw;
     top: auto;
     right: auto;
     bottom: auto;
     width: 92vw;
     height: 92vw;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-right: 0px;
     background-image: url("https://bloximages.chicago2.vip.townnews.com/indiawest.com/content/tncms/assets/v3/editorial/b/71/b71d541e-427c-11e4-bd30-3b7285fb75e7/54205a6116005.image.jpg");
   }
