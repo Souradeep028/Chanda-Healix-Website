@@ -2504,6 +2504,11 @@ textarea.w-select {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
+.desc-img{
+  display: none;
+  visibility: hidden;
+}
+
 .intro-bg-circle {
   position: absolute;
   right: 50vw;
@@ -3149,6 +3154,11 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
 .intro-bgg{
   display: none;
+}
+.desc-img{
+  display: block;
+  visibility: visible;
+  margin-bottom: 40px;
 }
 
   .intro-bg-circle {
