@@ -2485,7 +2485,23 @@ textarea.w-select {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.intro-bgg {
+  position: absolute;
+  left: 180px;
+  top: 180px;
+  height: 800px;
+  width: 620px;
+  right: 120vw;
+  bottom: 40px;
+  margin-right: 125px;
+  background-image: url("https://pinkbeverlyhills.com/wp-content/uploads/2018/08/CZaveri_BW_qty50_v1.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
 .intro-bg-circle {
@@ -3131,6 +3147,10 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     margin-right: 0px;
     background-image: url("https://bloximages.chicago2.vip.townnews.com/indiawest.com/content/tncms/assets/v3/editorial/b/71/b71d541e-427c-11e4-bd30-3b7285fb75e7/54205a6116005.image.jpg");
   }
+.intro-bgg{
+  display: none;
+}
+
   .intro-bg-circle {
     bottom: -30px;
     width: 200px;
