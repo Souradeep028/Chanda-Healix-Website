@@ -1904,9 +1904,6 @@ textarea.w-select {
   display: none !important;
 }
 
-/* ==========================================================================
-   Start of custom Webflow CSS
-   ========================================================================== */
 .hero-section {
   overflow: hidden;
   width: 100vw;
@@ -2046,7 +2043,7 @@ textarea.w-select {
   width: 30px;
   height: 120px;
   margin-left: -15px;
-  background-image: url("/assets/5a3121bc7b7a1700017b93ce_scroll-down.png");
+  background-image: url("/assets/scroll-down.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2078,7 +2075,7 @@ textarea.w-select {
   right: 0px;
   bottom: 0px;
   width: 37.5vh;
-  background-image: url("/assets/5a3684389607eb0001716519_egg-overlay-left.png");
+  background-image: url("/assets/egg-overlay-left.png");
   background-position: 0px 0px;
   background-size: cover;
   -webkit-transform: translate(0px, 0px);
@@ -2238,7 +2235,7 @@ textarea.w-select {
   top: 100px;
   right: 0px;
   height: 200px;
-  background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a3518e69607eb000170e779_benefits-bg.png");
+  background-image: url("/assets/benefits-bg.png");
   background-position: 50% 0px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2283,7 +2280,7 @@ textarea.w-select {
   width: 35px;
   height: 25px;
   margin-bottom: 135px;
-  background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a353ee89e1d100001abe07b_slider-arrow-left.png");
+  background-image: url("/assets/slider-arrow-left.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2295,7 +2292,7 @@ textarea.w-select {
   height: 25px;
   margin-bottom: 135px;
   margin-left: 50px;
-  background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a353efa9e1d100001abe080_slider-arrow-right.png");
+  background-image: url("/assets/slider-arrow-right.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2326,7 +2323,7 @@ textarea.w-select {
   right: 65vw;
   height: 200px;
   margin-top: -50px;
-  background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a525ec735a800000134bae8_fans-bg.png");
+  background-image: url("/assets/fans-bg.png");
   background-position: 0px 0px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2355,119 +2352,9 @@ textarea.w-select {
   padding: 100px 12vw;
 }
 
-.story-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(51, 51, 51, 0.9)),
-      to(rgba(17, 17, 17, 0.98))
-    ),
-    url("https://assets.website-files.com/5a2919265d608800015052bf/5a4dc4f73c5d8600019a69c5_story-bg.jpeg");
-  background-image: linear-gradient(
-      90deg,
-      rgba(51, 51, 51, 0.9),
-      rgba(17, 17, 17, 0.98)
-    ),
-    url("https://assets.website-files.com/5a2919265d608800015052bf/5a4dc4f73c5d8600019a69c5_story-bg.jpeg");
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-attachment: scroll, fixed;
-  text-align: center;
-}
-
 .display-section {
   position: relative;
   padding-left: 50vw;
-}
-
-.citation-block {
-  margin-bottom: 20px;
-  background-color: #fff;
-  box-shadow: 0 12px 25px 0 rgba(0, 0, 0, 0.15);
-}
-
-.citation-img {
-  width: 100%;
-  background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a37ac935085cc0001bb9797_citation-img-1.jpeg");
-  background-position: 50% 0px;
-  background-size: cover;
-}
-
-.citation-img._2 {
-  background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a37b138a3e4160001e53ebd_citation-img-2.jpeg");
-}
-
-.citation-content {
-  position: relative;
-  padding: 50px 30px;
-}
-
-.citation-paper-title {
-  margin-top: 0px;
-}
-
-.citation-eng {
-  display: none;
-  font-family: Lato, sans-serif;
-  color: #000000;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-.citation-chinese {
-  margin-bottom: 30px;
-  color: #000000;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-.citation-author {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  font-family: Lato, sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-  line-height: 14px;
-  font-weight: 700;
-}
-
-.citation-more-link {
-  padding-bottom: 5px;
-  border-bottom: 2px solid #fff2f6;
-  color: #111;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.citation-label {
-  position: absolute;
-  left: 30px;
-  top: -10px;
-  right: 0px;
-  display: inline-block;
-  width: 70px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  background-color: #fff2f6;
-  color: rgb(0, 0, 0);
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.citation-label._2 {
-  width: 80px;
-}
-
-.citation-row {
-  position: relative;
-}
-
-.citation-title {
-  text-align: center;
 }
 
 .display-pics-wrapper {
@@ -2862,7 +2749,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .intro-bg {
     margin-right: 75px;
-    background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a51f1d3b462b2000144decd_hero-bg-mobile.jpg");
+    background-image: url("/assets/hero-bg-mobile.png");
     background-size: cover;
   }
   .intro-bg-circle {
@@ -2923,7 +2810,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
 
 @media (max-width: 767px) {
   .hero-section {
-    background-image: url("https://assets.website-files.com/5a2919265d608800015052bf/5a37fea3da4df100012f8436_sports-bg.jpg");
+    background-image: url("/assets/hero-bg-mobile.png");
     background-position: 50% 50%;
     background-size: cover;
   }
@@ -2948,7 +2835,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     padding-right: 0vh;
     padding-bottom: 8vw;
     padding-left: 8vw;
-    background-image: url("/assets/5a5207cf14094300018693d0_mobile-egg.png");
+    background-image: url("/assets/mobile-egg.png");
     background-position: 50% 0px;
     background-size: cover;
     background-repeat: no-repeat;
