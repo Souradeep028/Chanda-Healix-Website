@@ -2378,7 +2378,7 @@ textarea.w-select {
   text-align: center;
 }
 
-.sports-section {
+.display-section {
   position: relative;
   padding-left: 50vw;
 }
@@ -2470,7 +2470,7 @@ textarea.w-select {
   text-align: center;
 }
 
-.sports-pics-wrapper {
+.display-pics-wrapper {
   margin-left: -125px;
 }
 
@@ -2545,7 +2545,7 @@ textarea.w-select {
   text-align: right;
 }
 
-.sports-content-1 {
+.display-content-1 {
   position: absolute;
   left: 12vw;
   top: 150px;
@@ -2553,7 +2553,7 @@ textarea.w-select {
   margin-right: 125px;
 }
 
-.sports-desc {
+.display-desc {
   padding-right: 80px;
   color: #000000;
   font-size: 16px;
@@ -2634,7 +2634,7 @@ textarea.w-select {
   font-weight: 700;
 }
 
-.sports-img {
+.display-img {
   position: relative;
   width: 64%;
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.185);
@@ -2642,29 +2642,29 @@ textarea.w-select {
   transition: all 200ms ease;
 }
 
-.sports-img:hover {
+.display-img:hover {
   z-index: 999;
   -webkit-transform: scale(1.08);
   -ms-transform: scale(1.08);
   transform: scale(1.08);
 }
 
-.sports-img._2 {
+.display-img._2 {
   position: relative;
   top: 50px;
 }
 
-.sports-img._4 {
+.display-img._4 {
   position: relative;
   top: 50px;
 }
 
-.sports-img._1 {
+.display-img._1 {
   bottom: 50px;
   left: 190px;
 }
 
-.sports-img._3 {
+.display-img._3 {
   bottom: 50px;
   left: 186px;
 }
@@ -2699,7 +2699,7 @@ textarea.w-select {
   font-weight: 700;
 }
 
-.sports-content-2 {
+.display-content-2 {
   position: absolute;
   left: 12vw;
   top: 150px;
@@ -2708,7 +2708,7 @@ textarea.w-select {
   opacity: 0;
 }
 
-.sports-content-3 {
+.display-content-3 {
   position: absolute;
   left: 12vw;
   top: 150px;
@@ -2717,7 +2717,7 @@ textarea.w-select {
   opacity: 0;
 }
 
-.sports-content-4 {
+.display-content-4 {
   position: absolute;
   left: 12vw;
   top: 150px;
@@ -2850,12 +2850,12 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   .citation-section {
     padding: 50px 5vw;
   }
-  .sports-section {
+  .display-section {
     padding-top: 50px;
     padding-right: 5vw;
     padding-left: 5vw;
   }
-  .sports-pics-wrapper {
+  .display-pics-wrapper {
     position: static;
     margin-top: 350px;
     margin-left: 0px;
@@ -2868,7 +2868,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   .intro-bg-circle {
     margin-right: 0px;
   }
-  .sports-content-1 {
+  .display-content-1 {
     position: absolute;
     left: 5vw;
     top: 50px;
@@ -2876,7 +2876,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     margin-right: 0px;
     text-align: center;
   }
-  .sports-desc {
+  .display-desc {
     padding-right: 0px;
   }
   .founder-text {
@@ -2889,21 +2889,21 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   .quote-eng {
     margin-top: 0px;
   }
-  .sports-content-2 {
+  .display-content-2 {
     left: 5vw;
     top: 50px;
     right: 5vw;
     margin-right: 0px;
     text-align: center;
   }
-  .sports-content-3 {
+  .display-content-3 {
     left: 5vw;
     top: 50px;
     right: 5vw;
     margin-right: 0px;
     text-align: center;
   }
-  .sports-content-4 {
+  .display-content-4 {
     left: 5vw;
     top: 50px;
     right: 5vw;
@@ -2913,7 +2913,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   .heading {
     font-size: 32px;
   }
-  .sports-title {
+  .display-title {
     font-size: 32px;
   }
   .heading-3 {
@@ -3114,7 +3114,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     padding-top: 100px;
     padding-bottom: 10px;
   }
-  .sports-section {
+  .display-section {
     padding-top: 20px;
     padding-bottom: -50px;
     margin-bottom: -200px;
@@ -3137,7 +3137,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     font-size: 28px;
     line-height: 38px;
   }
-  .sports-pics-wrapper {
+  .display-pics-wrapper {
     margin-top: 400px;
   }
   .intro-bg {
@@ -3182,23 +3182,23 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     margin-top: 100px;
     margin-bottom: 10px;
   }
-  .sports-img._2 {
+  .display-img._2 {
     top: -58px;
     width: 170px;
     left: 178px;
   }
-  .sports-img._4 {
+  .display-img._4 {
     top: -260px;
     width: 170px;
     right: -163px;
   }
-  .sports-img._1 {
+  .display-img._1 {
     top: 132px;
     margin-bottom: 20px;
     width: 170px;
     left: -1px;
   }
-  .sports-img._3 {
+  .display-img._3 {
     top: -70px;
     left: -16px;
     width: 170px;
@@ -3212,7 +3212,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     font-size: 28px;
     line-height: 38px;
   }
-  .sports-title {
+  .display-title {
     font-size: 28px;
     line-height: 35px;
   }
