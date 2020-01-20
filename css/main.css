@@ -2566,6 +2566,7 @@ textarea.w-select {
   font-family: Lato, sans-serif;
   line-height: 28px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .origin-bg {
@@ -3070,23 +3071,23 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     margin-bottom: 10px;
   }
   .display-img._2 {
-    top: -58px;
+    top: 14px;
     width: 170px;
-    left: 178px;
+    left: 180px;
   }
   .display-img._4 {
-    top: -260px;
+    top: -187px;
     width: 170px;
-    right: -163px;
+    right: -165px;
   }
   .display-img._1 {
-    top: 132px;
+    top: 204px;
     margin-bottom: 20px;
     width: 170px;
     left: -1px;
   }
   .display-img._3 {
-    top: -70px;
+    top: 4px;
     left: -16px;
     width: 170px;
     margin-bottom: 20px;
