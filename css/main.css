@@ -2105,6 +2105,7 @@ textarea.w-select {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .section-subtitle {
@@ -2413,6 +2414,7 @@ textarea.w-select {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .intro-bg-line {
@@ -2949,6 +2951,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+    text-align: center;
   }
   .benefits-bg {
     left: auto;
