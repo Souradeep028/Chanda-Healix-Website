@@ -78,7 +78,7 @@ h1 {
 }
 
 .lead {
-  color: #ccc;
+  color: rgb(54, 54, 54);
   font-size: 1.5625em;
   max-width: 20em;
   margin: 0 auto;
