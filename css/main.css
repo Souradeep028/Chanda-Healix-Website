@@ -3097,6 +3097,9 @@ html.w-mod-js *[data-ix="contact-button-init"] {
     visibility: hidden;
 
   }
+  .disp{
+    visibility: visible !important;
+  }
   .origin-bg {
     top: 100vw;
     width: 92vw;
