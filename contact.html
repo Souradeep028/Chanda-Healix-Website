@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/menu-style.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <!-- Icon Fonts -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -42,10 +44,10 @@
     <div class="body menu-overlay-parent">
         <div id="home">
             <div data-collapse="medium" data-animation="default" data-duration="400" class="hero-nav w-nav"><a href="#"
-                    class="nav-logo w-nav-brand"><img src="assets/5a33befcd776220001ebc2d8_logo.png" width="100"
-                        srcset="assets/5a33befcd776220001ebc2d8_logo.png 500w, assets/5a33befcd776220001ebc2d8_logo-p-800.png 800w, assets/5a33befcd776220001ebc2d8_logo.png 1080w, assets/5a33befcd776220001ebc2d8_logo.png 1278w"
+                    class="nav-logo w-nav-brand"><img src="assets/logo.png" width="100"
+                        srcset="assets/logo.png 500w, assets/logo.png 800w, assets/logo.png 1080w, assets/logo.png 1278w"
                         sizes="(max-width: 479px) 100vw, 100px" alt="" class="nav-logo-img" /></a><a href="#"
-                    class="nav-logo-mobile w-nav-brand"><img src="assets/5a33befcd776220001ebc2d8_logo.png" width="100"
+                    class="nav-logo-mobile w-nav-brand"><img src="assets/logo.png" width="100"
                         alt="" class="nav-logo-img" /></a>
 
                 <nav role="navigation" class="w-nav-menu">
@@ -143,30 +145,39 @@
     <!-- Navigation_end -->
 
     <!-- Contact Form -->
-    <div class="contact-container">
-        <h3>Contact Form</h3>
-                <form id="contact-form" class="" action="#" method="POST" role="form">
+    <section>
+        <div class="form">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <div>
+                    <h2 style="text-align: center; margin-bottom: 48px;">Get In Touch</h2>
+                  </div>
+                  <form method="post" data-form-title="CONTACT US">
+                    <input type="hidden" data-form-email="true">
                     <div class="form-group">
-                        <label class="form-label" for="name">Your Name</label>
-                        <input type="text" class="" id="name" name="name" placeholder="Your name" tabindex="1" required>
-                    </div>                            
-                    <div class="form-group">
-                        <label class="form-label" for="email">Your Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
-                    </div>                            
-                    <div class="form-group">
-                        <label class="form-label" for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
-                    </div>                            
-                    <div class="form-group">
-                        <label class="form-label" for="message">Message</label>
-                        <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." tabindex="4" required></textarea>                                 
+                      <input type="text" class="form-control" name="name" required="" placeholder="Name*" data-form-field="Name">
                     </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-start-order">Send Message</button>
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" required="" placeholder="Email*" data-form-field="Email">
                     </div>
-                </form>
-    </div>
+                    <div class="form-group">
+                      <input type="tel" class="form-control" name="phone" placeholder="Phone" data-form-field="Phone">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
+                    </div>
+                    <div>
+                      <button type="submit" class="btn btn-lg center-block" style="position: initial; margin-top: 40px;">Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     <!-- Contact Form_end -->
 
     <!-- footer_start  -->
@@ -178,7 +189,7 @@
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img src="assets/5a33befcd776220001ebc2d8_logo.png" style="height: 28px;" alt="">
+                                    <img src="assets/footer_logo.png" style="height: 28px;" alt="">
                                 </a>
                             </div>
                             <h3 class="footer_title">
