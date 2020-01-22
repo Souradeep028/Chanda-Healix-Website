@@ -2110,6 +2110,7 @@ textarea.w-select {
 
 .section-subtitle {
   position: relative;
+  margin-top: 20px;
   margin-bottom: 40px;
   font-family: Montserrat, sans-serif;
 }
@@ -2225,7 +2226,7 @@ textarea.w-select {
     -webkit-gradient(linear, left top, right top, from(#cc3843), to(#bb1212));
   background-image: linear-gradient(90deg, #333, #000),
     linear-gradient(90deg, #cc3843, #bb1212);
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.35);
+  /* box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.35); */
   font-size: 18px;
   font-weight: 400;
 }
@@ -2713,7 +2714,7 @@ html.w-mod-js *[data-ix="contact-button-init"] {
   }
   .section-subtitle {
     margin-bottom: 30px;
-    margin-top: -28px;
+    margin-top: 16px;
   }
   .cherry-bg-circle {
     margin-right: 0px;
