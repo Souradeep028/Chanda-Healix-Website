@@ -38,7 +38,6 @@ $("#productSelect").on('change', function () {
         $("#productHeading09").hide();
         $("#productHeading10").hide();
         $("#productHeading11").hide();
-        $(".profile").css({"background": "url('https://cdn.shopify.com/s/files/1/0777/7633/products/cp_hover_facecream_33bda464-5330-49aa-8961-82b6af892e66_grande.gif?v=1546644294') center 10%", "height":"100vh", "background-size":"cover"})
     }
 
     else if ($(this).val() == "3") {
@@ -53,7 +52,6 @@ $("#productSelect").on('change', function () {
         $("#productHeading09").hide();
         $("#productHeading10").hide();
         $("#productHeading11").hide();
-        $(".profile").css({"background": "url('https://ferbena.com/wp-content/uploads/2018/07/korean-beauty-cloudless-skin.gif') center 10%", "height":"100vh", "background-size":"cover"})
     }
 
     else if ($(this).val() == "4") {
@@ -82,7 +80,6 @@ $("#productSelect").on('change', function () {
         $("#productHeading09").hide();
         $("#productHeading10").hide();
         $("#productHeading11").hide();
-        $(".profile").css({"background": "url('https://cdn.shopify.com/s/files/1/0777/7633/products/cp_hover_facecream_33bda464-5330-49aa-8961-82b6af892e66_grande.gif?v=1546644294') center 10%", "height":"100vh", "background-size":"cover"})
     }
 
     else if ($(this).val() == "6") {
