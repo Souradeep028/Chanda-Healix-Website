@@ -33,6 +33,7 @@
   padding: 16px;
   margin-left: 64px;
   margin-right: 64px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 479px) {
