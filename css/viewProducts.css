@@ -11,9 +11,29 @@
 #productSelect{
   width: auto;
   padding: 10px;
-  margin-top: 220px;
-  margin-left: 12%;
-}  
+  margin-top: 180px;
+  margin-left: 31%;
+  width: 364px;
+} 
+
+.selectProduct p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 8px;
+  color: #505050;
+}
+
+.selectProduct hr{
+  margin: 2em 0;
+}
+
+.content{
+  text-align: justify;
+  padding: 16px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
 
 @media screen and (max-width: 479px) {
   #productSelect{
@@ -21,6 +41,26 @@
     padding: 10px;
     margin: 20px 20px 20px 20px;
   }  
+
+  .content{
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+    margin-top: -10px;
+  }
+
+  .selectProduct p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: -8px;
+    color: #505050;
+}
+
+.selectProduct hr{
+  margin: 2em 0 -24px;
+}
 }
 
 @media (min-width: 55em) {
@@ -79,7 +119,7 @@ h1 {
 @media (min-width: 55em) {
   .nth-line-1 {
     font-size: 4vw;
-    margin-top: 164px;
+    margin-top: -20px;
   }
 }
 
@@ -94,7 +134,7 @@ h1 {
 
 .lead {
   color: rgb(54, 54, 54);
-  font-size: 1.5625em;
+  font-size: 24px;
   max-width: 20em;
   margin: 0 auto;
   text-align: center;
@@ -104,7 +144,7 @@ hr {
   border: none;
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/5175/hr-01.png") no-repeat center;
   height: 40px;
-  margin: 5em 0;
+  margin: 2em 0 32px 0px;
 }
 
 section {
